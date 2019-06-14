@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Check pages from xls file]">
+  <test name="Check Unit BV Intranet(failed)">
+    <classes>
+      <class name="unitbv.tests.CheckUnitBV">
+        <methods>
+          <include name="openDriver"/>
+          <include name="verifyUrlUsingXPath"/>
+        </methods>
+      </class> <!-- unitbv.tests.CheckUnitBV -->
+    </classes>
+  </test> <!-- Check Unit BV Intranet(failed) -->
+</suite> <!-- Failed suite [Check pages from xls file] -->

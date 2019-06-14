@@ -1,0 +1,10 @@
+<suite name="All Suites" preserve-order="true">
+
+    <suite-files>
+        <suite-file path="CheckPagesFromXlsFiles.xml"></suite-file>
+        <suite-file path="TestsFromXlsFiles.xml"></suite-file>
+        <suite-file path="TestsFromJavaCasses.xml"></suite-file>
+    </suite-files>
+
+</suite>
+

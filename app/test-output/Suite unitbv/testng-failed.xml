@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite unitbv]">
+  <test name="Test Suite(failed)">
+    <classes>
+      <class name="unitbv.tests.TestFromXls">
+        <methods>
+          <include name="openDriver"/>
+          <include name="closeDriver"/>
+          <include name="runTestCase" invocation-numbers="7"/>
+        </methods>
+      </class> <!-- unitbv.tests.TestFromXls -->
+    </classes>
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [Suite unitbv] -->

@@ -1,0 +1,128 @@
+<project name="Automation" default="openReport" basedir=".">
+
+    <!-- Setarea locatiei fisierului de proprietati -->
+
+    <property file="testRunner.properties"/>
+    
+    <echo message="Locatia aplicatiei:                             ${project.dir}"/>
+    <echo message="Base URL:                                       ${base.url}"/>
+    <echo message="Locatia fisierului XLS:                         ${file.path.xls}"/>
+    <echo message="Locatia folderului cu suitele de teste:         ${test.input.folder}"/>
+    <echo message="Suita de teste de executat:                     ${suite}"/>
+    <echo message="Locatia unde TestNg va genera rapp de test:     ${ng.result}"/>
+    <echo message="Browserul pe care se vor executa testele:       ${browser}"/>
+    <echo message="Locatia raportului de test generat de fwk:      ${report.dir}"/>
+    <echo message="Locatia capturilor de ecran:                    ${screen.shot.dir}"/>
+       
+    <property name="chrome.browser" location="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"/>
+    <property name="file" location="${report.dir}/report/index.html"/>
+
+    <tstamp>
+        <format property="TODAY" pattern="yyyy_MM_dd_HH_mm_ss" locale="en"/>
+    </tstamp>
+
+    <!-- Setarea cailor catre librarii si surse -->
+
+    <target name="setClassPath">
+                    
+        <path id="test.classpath">
+		<fileset dir="${project.dir}/lib" includes="*.jar" />
+		<pathelement location="${project.dir}/bin" />
+		<pathelement location="${project.dir}/lib" />
+	</path>
+    </target>
+
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="${project.dir}/lib/testng-6.8.5.jar" />
+		</classpath>
+	</taskdef>
+
+    <!-- Stergerea directorului de build -->
+
+    <target name="clean">
+        <echo message="deleting existing build directory"/>
+        <delete dir="${project.dir}/bin"/>
+    </target>
+
+    <!-- Stergerea directorului de capturi ecran -->
+
+    <target name="cleanScreenshots">
+        <echo message="deleting existing ScrShot directory"/>
+        <delete dir="${screen.shot.dir}"/>
+        <mkdir dir="${screen.shot.dir}"/>
+    </target>
+
+    <!-- Recrearea directorului de build pentru a stoca clasele compilate -->
+
+    <target name="init" depends="clean,setClassPath">
+        <mkdir dir="${project.dir}/bin"/>
+    </target>
+    
+     <!-- Compilare -->
+    <target name="compile" depends="init" description="compile the source ">
+		<javac srcdir="${project.dir}/src" destdir="${project.dir}/bin" classpathref="test.classpath" includeantruntime="true">
+		</javac>
+	</target>
+
+     <!-- Executie -->
+    <target name="run" depends="compile, init">
+
+        <testng outputDir="${ng.result}" classpathref="test.classpath"
+			haltonfailure="false">
+			<xmlfileset dir="${test.input.folder}" includes="${suite}" />
+		</testng>
+    </target>
+
+    <!-- Generare raport-->
+
+    <target name="makexsltreports" depends="run">
+        <mkdir dir="${report.dir}/report"/>
+        <!-- Arhivare raport precedent-->
+    
+        <move todir="${report.dir}/archive/archive - ${TODAY}"
+              includeEmptyDirs="yes"
+              verbose="true">
+            <fileset dir="${report.dir}/report">
+                <include name="**/*"/>
+            </fileset>
+        </move>
+        <delete dir="${report.dir}/report"/>
+        <mkdir dir="${report.dir}/report"/>
+
+        <echo message="Starting generation of xsl test report... "/>
+        <xslt in="${ng.result}/testng-results.xml"
+              style="${project.dir}/resources/testng-results.xsl"
+              out="${report.dir}/report/index.html"
+              classpathref="test.classpath"
+              processor="SaxonLiaison">
+            <param name="testNgXslt.outputDir" expression="${report.dir}/report"/>
+            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+            <param expression="true" name="testNgXslt.sortTestCaseLinks"/>
+            <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS"
+                   name="testNgXslt.testDetailsFilter"/>
+
+        </xslt>
+        <echo message="Report generated successfully... "/>
+
+        <!-- A se activa daca raportul de test se va publica la o locatie ftp -->
+        <!--  <scp
+               port="23"
+               todir="${report.publish.location}"
+               trust="true"
+               sftp="true">
+              <fileset dir="${report.dir}/report"/>
+          </scp> -->
+
+    <!-- Optional deschidere raport de test-->
+          
+    </target>
+    <target name="openReport" depends="makexsltreports">
+
+        <exec executable="${chrome.browser}" spawn="true">
+            <arg value="${file}"/>
+        </exec>
+
+    </target>
+
+</project>

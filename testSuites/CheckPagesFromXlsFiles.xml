@@ -1,0 +1,9 @@
+<suite name="Check pages from xls file" preserve-order="true">
+
+    <test name="Check Unit BV Intranet" preserve-order="true">
+        <classes>
+            <class name="unitbv.tests.CheckUnitBV"></class>
+        </classes>
+    </test>
+
+</suite>

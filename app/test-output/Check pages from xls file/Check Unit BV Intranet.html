@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  Check Unit BV Intranet</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Check Unit BV Intranet</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 05 13:49:04 EEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9695 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: despre, /despre-unitbv.html, //img[contains(@alt,'teacher pointing blackboard')]<br/>
+<a href="#Output-1963862935" onClick='toggleBox("Output-1963862935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1963862935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963862935">
+05-06_13-49-04 [INFO] - Page  opened<br/>
+05-06_13-49-05 [INFO] - open page : /despre-unitbv.html to check :despre<br/>
+05-06_13-49-06 [INFO] - Element   was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: consiliul-de, /despre-unitbv/echipa-de-conducere/consiliul-de-administratie.html, //span[contains(.,'Mihaela')]<br/>
+<a href="#Output-539690370" onClick='toggleBox("Output-539690370", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-539690370" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-539690370">
+05-06_13-49-06 [INFO] - Page  opened<br/>
+05-06_13-49-07 [INFO] - open page : /despre-unitbv/echipa-de-conducere/consiliul-de-administratie.html to check :consiliul-de<br/>
+05-06_13-49-07 [INFO] - Element  Mihaela was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: senat, /despre-unitbv/echipa-de-conducere/senat.html, //a[contains(.,'CV')]<br/>
+<a href="#Output-352598575" onClick='toggleBox("Output-352598575", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-352598575" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-352598575">
+05-06_13-49-07 [INFO] - Page  opened<br/>
+05-06_13-49-08 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :senat<br/>
+05-06_13-49-08 [INFO] - Element  CV was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: transparenta, /despre-unitbv/informatii-de-interes-public/transparenta-institutionala.html, //span[contains(.,'Rapoarte')]<br/>
+<a href="#Output-443934570" onClick='toggleBox("Output-443934570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443934570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443934570">
+05-06_13-49-08 [INFO] - Page  opened<br/>
+05-06_13-49-09 [INFO] - open page : /despre-unitbv/informatii-de-interes-public/transparenta-institutionala.html to check :transparenta<br/>
+05-06_13-49-09 [INFO] - Element  Rapoarte was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: proiecte, /cercetare/rezultatele-cercetarii.html, //span[contains(.,'Proiecte')]<br/>
+<a href="#Output-1040776996" onClick='toggleBox("Output-1040776996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1040776996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1040776996">
+05-06_13-49-09 [INFO] - Page  opened<br/>
+05-06_13-49-10 [INFO] - open page : /cercetare/rezultatele-cercetarii.html to check :proiecte<br/>
+05-06_13-49-10 [INFO] - Element  Proiecte was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: pentru, /despre-unitbv/cariera-si-posturi-vacante.html, //img[@src='/images/footerlogo.PNG']<br/>
+<a href="#Output-1640296160" onClick='toggleBox("Output-1640296160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640296160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640296160">
+05-06_13-49-10 [INFO] - Page  opened<br/>
+05-06_13-49-10 [INFO] - open page : /despre-unitbv/cariera-si-posturi-vacante.html to check :pentru<br/>
+05-06_13-49-11 [INFO] - Element   was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: membrii, /despre-unitbv/echipa-de-conducere/senat.html, //span[contains(.,'Membrii')]<br/>
+<a href="#Output-1551945522" onClick='toggleBox("Output-1551945522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1551945522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551945522">
+05-06_13-49-11 [INFO] - Page  opened<br/>
+05-06_13-49-12 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :membrii<br/>
+05-06_13-49-12 [INFO] - Element  Membrii was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: logo, /studenti/administrative/transport-studenti.html, //img[@src='/images/footerlogo.PNG']<br/>
+<a href="#Output-1222768327" onClick='toggleBox("Output-1222768327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1222768327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1222768327">
+05-06_13-49-12 [INFO] - Page  opened<br/>
+05-06_13-49-12 [INFO] - open page : /studenti/administrative/transport-studenti.html to check :logo<br/>
+05-06_13-49-13 [INFO] - Element   was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+<tr>
+<td title='unitbv.tests.CheckUnitBV.verifyUrlUsingXPath()'><b>verifyUrlUsingXPath</b><br>Test class: unitbv.tests.CheckUnitBV<br>Parameters: logo-bec, /cercetare/transfer-tehnologic-si-antreprenoriat.html, //i[@class='material-design-light88']<br/>
+<a href="#Output-1293203138" onClick='toggleBox("Output-1293203138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293203138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293203138">
+05-06_13-49-13 [INFO] - Page  opened<br/>
+05-06_13-49-13 [INFO] - open page : /cercetare/transfer-tehnologic-si-antreprenoriat.html to check :logo-bec<br/>
+05-06_13-49-13 [INFO] - Element   was found on page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>unitbv.tests.CheckUnitBV@649d209a</td></tr>
+</table><p>
+</body>
+</html>

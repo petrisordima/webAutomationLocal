@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests from java clases]">
+  <test name="Check IS Grade(failed)">
+    <classes>
+      <class name="unitbv.tests.CheckISGrade">
+        <methods>
+          <include name="openDriver"/>
+          <include name="verifyISGradeOnIntranet"/>
+        </methods>
+      </class> <!-- unitbv.tests.CheckISGrade -->
+    </classes>
+  </test> <!-- Check IS Grade(failed) -->
+</suite> <!-- Failed suite [Tests from java clases] -->

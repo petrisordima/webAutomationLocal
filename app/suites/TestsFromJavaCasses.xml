@@ -1,0 +1,9 @@
+<suite name="Tests from java clases" preserve-order="true">
+
+    <test name="Check IS Grade" preserve-order="true">
+        <classes>
+            <class name="unitbv.tests.CheckISGrade"></class>
+        </classes>
+    </test>
+
+</suite>

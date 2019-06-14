@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - Preparing test execution ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - Loading unitbv.proprieties file ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - File Loaded. Test parameters are: ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - @ ____General Parameters___ @ ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  screen.shot.dir 				: D:/testreport/testreport/screenShots]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  unitbv.url 						: https://www.unitbv.ro]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  selenium.url 					: null]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  browser						    : firefox]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  user.md5 						: null]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  timeout 						: 5]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] -  wait 							: 1]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - @ ____Test Data Parameters (Xls)____@  ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - @ ____________ @ ]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - Finished reading parameters. Begining test execution]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-00 [INFO] - Start Driver]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-04 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-05 [INFO] - open page : /despre-unitbv.html to check :despre]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-06 [INFO] - Element   was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-06 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-07 [INFO] - open page : /despre-unitbv/echipa-de-conducere/consiliul-de-administratie.html to check :consiliul-de]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-07 [INFO] - Element  Mihaela was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-07 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-08 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :senat]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-08 [INFO] - Element  CV was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-08 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-09 [INFO] - open page : /despre-unitbv/informatii-de-interes-public/transparenta-institutionala.html to check :transparenta]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-09 [INFO] - Element  Rapoarte was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-09 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-10 [INFO] - open page : /cercetare/rezultatele-cercetarii.html to check :proiecte]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-10 [INFO] - Element  Proiecte was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-10 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-10 [INFO] - open page : /despre-unitbv/cariera-si-posturi-vacante.html to check :pentru]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-11 [INFO] - Element   was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-11 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-12 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :membrii]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-12 [INFO] - Element  Membrii was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-12 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-12 [INFO] - open page : /studenti/administrative/transport-studenti.html to check :logo]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-13 [INFO] - Element   was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-13 [INFO] - Page  opened]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-13 [INFO] - open page : /cercetare/transfer-tehnologic-si-antreprenoriat.html to check :logo-bec]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-13 [INFO] - Element   was found on page]]>
+    </line>
+    <line>
+      <![CDATA[05-06_13-49-14 [INFO] - Stop Driver]]>
+    </line>
+  </reporter-output>
+  <suite name="Check pages from xls file" duration-ms="9695" started-at="2019-06-05T10:49:04Z" finished-at="2019-06-05T10:49:14Z">
+    <groups>
+    </groups>
+    <test name="Check Unit BV Intranet" duration-ms="9695" started-at="2019-06-05T10:49:04Z" finished-at="2019-06-05T10:49:14Z">
+      <class name="unitbv.tests.CheckUnitBV">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="openDriver" is-config="true" duration-ms="3702" started-at="2019-06-05T13:49:00Z" finished-at="2019-06-05T13:49:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - Preparing test execution ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - Loading unitbv.proprieties file ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - File Loaded. Test parameters are: ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - @ ____General Parameters___ @ ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  screen.shot.dir 				: D:/testreport/testreport/screenShots]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  unitbv.url 						: https://www.unitbv.ro]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  selenium.url 					: null]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  browser						    : firefox]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  user.md5 						: null]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  timeout 						: 5]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] -  wait 							: 1]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - @ ____Test Data Parameters (Xls)____@  ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - @ ____________ @ ]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - Finished reading parameters. Begining test execution]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-00 [INFO] - Start Driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="1628" started-at="2019-06-05T13:49:04Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[despre]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//img[contains(@alt,'teacher pointing blackboard')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-04 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-05 [INFO] - open page : /despre-unitbv.html to check :despre]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-06 [INFO] - Element   was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="1085" started-at="2019-06-05T13:49:06Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[consiliul-de]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv/echipa-de-conducere/consiliul-de-administratie.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[contains(.,'Mihaela')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-06 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-07 [INFO] - open page : /despre-unitbv/echipa-de-conducere/consiliul-de-administratie.html to check :consiliul-de]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-07 [INFO] - Element  Mihaela was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="1193" started-at="2019-06-05T13:49:07Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[senat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv/echipa-de-conducere/senat.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//a[contains(.,'CV')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-07 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-08 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :senat]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-08 [INFO] - Element  CV was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="892" started-at="2019-06-05T13:49:08Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[transparenta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv/informatii-de-interes-public/transparenta-institutionala.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[contains(.,'Rapoarte')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-08 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-09 [INFO] - open page : /despre-unitbv/informatii-de-interes-public/transparenta-institutionala.html to check :transparenta]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-09 [INFO] - Element  Rapoarte was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="974" started-at="2019-06-05T13:49:09Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[proiecte]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/cercetare/rezultatele-cercetarii.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[contains(.,'Proiecte')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-09 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-10 [INFO] - open page : /cercetare/rezultatele-cercetarii.html to check :proiecte]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-10 [INFO] - Element  Proiecte was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="848" started-at="2019-06-05T13:49:10Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pentru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv/cariera-si-posturi-vacante.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//img[@src='/images/footerlogo.PNG']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-10 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-10 [INFO] - open page : /despre-unitbv/cariera-si-posturi-vacante.html to check :pentru]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-11 [INFO] - Element   was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="1197" started-at="2019-06-05T13:49:11Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[membrii]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/despre-unitbv/echipa-de-conducere/senat.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[contains(.,'Membrii')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-11 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-12 [INFO] - open page : /despre-unitbv/echipa-de-conducere/senat.html to check :membrii]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-12 [INFO] - Element  Membrii was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="831" started-at="2019-06-05T13:49:12Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/studenti/administrative/transport-studenti.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//img[@src='/images/footerlogo.PNG']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-12 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-12 [INFO] - open page : /studenti/administrative/transport-studenti.html to check :logo]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-13 [INFO] - Element   was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="verifyUrlUsingXPath(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="verifyUrlUsingXPath" duration-ms="941" started-at="2019-06-05T13:49:13Z" data-provider="GetDataFromXlsFile" finished-at="2019-06-05T13:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logo-bec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/cercetare/transfer-tehnologic-si-antreprenoriat.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//i[@class='material-design-light88']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-13 [INFO] - Page  opened]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-13 [INFO] - open page : /cercetare/transfer-tehnologic-si-antreprenoriat.html to check :logo-bec]]>
+            </line>
+            <line>
+              <![CDATA[05-06_13-49-13 [INFO] - Element   was found on page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUsingXPath -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:unitbv.tests.CheckUnitBV@649d209a]" name="closeDriver" is-config="true" duration-ms="856" started-at="2019-06-05T13:49:14Z" finished-at="2019-06-05T13:49:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[05-06_13-49-14 [INFO] - Stop Driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- unitbv.tests.CheckUnitBV -->
+    </test> <!-- Check Unit BV Intranet -->
+  </suite> <!-- Check pages from xls file -->
+</testng-results>
