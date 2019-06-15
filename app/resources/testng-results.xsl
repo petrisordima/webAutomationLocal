@@ -696,7 +696,7 @@
 						</a>
 					</div>
 					<div>
-						<a href="D:\testreport\screenShots" target="content"
+						<a href="D:\testreport\testReport\screenShots" target="content"
 							onclick="javscript:clearAllSelections();">Error ScreenShot
 						</a>
 					</div>
@@ -1021,7 +1021,7 @@
 				<td nowrap="true"> <!-- Added new tag for screen shots -->
 					<xsl:if test="./exception">
 						<xsl:variable name="methodName" select="@name" />
-						<a href="D:\testreport\screenShots" target="_blank">ScreenShot</a>
+						<a href="D:\testreport\testReport\screenShots" target="_blank">ScreenShot</a>
 					</xsl:if>
 					&#160;
 				</td>

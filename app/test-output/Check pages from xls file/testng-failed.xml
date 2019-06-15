@@ -6,7 +6,8 @@
       <class name="unitbv.tests.CheckUnitBV">
         <methods>
           <include name="openDriver"/>
-          <include name="verifyUrlUsingXPath"/>
+          <include name="closeDriver"/>
+          <include name="verifyUrlUsingXPath" invocation-numbers="3"/>
         </methods>
       </class> <!-- unitbv.tests.CheckUnitBV -->
     </classes>

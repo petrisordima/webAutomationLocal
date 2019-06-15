@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test From Xls</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/8</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 04 22:58:10 EEST 2019</td>
+<td>Started on:</td><td>Sat Jun 15 11:22:18 EEST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (49 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4894 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,92 +67,24 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.openDriver()'><b>openDriver</b><br>Test class: unitbv.tests.TestFromXls<br/>
-<a href="#Output-1157058691" onClick='toggleBox("Output-1157058691", this, "Show output", "Hide output");'>Show output</a>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: GO_TO_URL, , https://intranet.unitbv.ro/<br/>
+<a href="#Output-234250762" onClick='toggleBox("Output-234250762", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1157058691" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1157058691">
-04-06_22-58-10 [INFO] - Preparing test execution <br/>
-04-06_22-58-10 [INFO] - Loading unitbv.proprieties file <br/>
-04-06_22-58-10 [INFO] - File Loaded. Test parameters are: <br/>
-04-06_22-58-10 [INFO] - @ ____General Parameters___ @ <br/>
-04-06_22-58-10 [INFO] -  screen.shot.dir 				: D:/testreport/testreport/screenShots<br/>
-04-06_22-58-10 [INFO] -  unitbv.url 						: https://www.unitbv.ro<br/>
-04-06_22-58-10 [INFO] -  selenium.url 					: null<br/>
-04-06_22-58-10 [INFO] -  browser						    : firefox<br/>
-04-06_22-58-10 [INFO] -  user.md5 						: null<br/>
-04-06_22-58-10 [INFO] -  timeout 						: 5<br/>
-04-06_22-58-10 [INFO] -  wait 							: 1<br/>
-04-06_22-58-10 [INFO] - @ ____Test Data Parameters (Xls)____@  <br/>
-04-06_22-58-10 [INFO] - @ ____________ @ <br/>
-04-06_22-58-10 [INFO] - Finished reading parameters. Begining test execution<br/>
-04-06_22-58-10 [INFO] - Start Driver<br/>
+<a href="#Output-234250762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-234250762">
+15-06_11-22-18 [INFO] - Page  opened<br/>
 </div>
 </td>
-<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: D:\testreport\resources\geckodriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at framework.InitWebDriver.openDriver(Unknown Source)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157058691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1157058691'><pre>java.lang.IllegalStateException: The driver executable does not exist: D:\testreport\resources\geckodriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at framework.InitWebDriver.openDriver(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: GO_TO_URL, , https://intranet.unitbv.ro/</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
 <td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: WAIT, , 1</td>
@@ -160,32 +92,74 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: SEND_TEXT, //input[contains(@name,'UserName')], petrisor.dima@student.unitbv.ro</td>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: SEND_TEXT, //input[contains(@name,'UserName')], petrisor.dima@student.unitbv.ro<br/>
+<a href="#Output-1758624236" onClick='toggleBox("Output-1758624236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1758624236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1758624236">
+15-06_11-22-20 [INFO] - Text : petrisor.dima@student.unitbv.ro sent to : //input[contains(@name,'UserName')]<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: SEND_TEXT, //input[@type='password'], VrTzBsDJDwFz54Q</td>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: SEND_TEXT, //input[@type='password'], VrTzBsDJDwFz54Q<br/>
+<a href="#Output-807328355" onClick='toggleBox("Output-807328355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807328355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807328355">
+15-06_11-22-20 [INFO] - Text : VrTzBsDJDwFz54Q sent to : //input[@type='password']<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(@id,'LoginButton')], </td>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(@id,'LoginButton')], <br/>
+<a href="#Output-1932536213" onClick='toggleBox("Output-1932536213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1932536213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1932536213">
+15-06_11-22-20 [INFO] - Click element : Intra in cont<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(.,'Acasa')], Acasa</td>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(.,'Acasa')], Acasa<br/>
+<a href="#Output-1112737073" onClick='toggleBox("Output-1112737073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1112737073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1112737073">
+15-06_11-22-22 [INFO] - Click element : ACASA<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>unitbv.tests.TestFromXls@d041cf</td></tr>
+<tr>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(.,'Secretariat')], Secretariat<br/>
+<a href="#Output-209429254" onClick='toggleBox("Output-209429254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-209429254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209429254">
+15-06_11-22-22 [INFO] - Click element : SECRETARIAT<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>
 <tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: CLICK, //a[contains(.,'Secretariat')], Secretariat</td>
-<td></td>
-<td>0</td>
-<td>unitbv.tests.TestFromXls@d041cf</td></tr>
-<tr>
-<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: ASERT_ELEMENT_PRESENT, //a[@href='/secretariat/notelemele'][contains(.,'Notele mele')], Notele mele</td>
+<td title='unitbv.tests.TestFromXls.runTestCase()'><b>runTestCase</b><br>Test class: unitbv.tests.TestFromXls<br>Parameters: ASERT_ELEMENT_PRESENT, //a[@href='/secretariat/notelemele'][contains(.,'Notele mele')], Notele mele<br/>
+<a href="#Output-1759482496" onClick='toggleBox("Output-1759482496", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1759482496" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1759482496">
+15-06_11-22-22 [INFO] - Element   was found on page<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
 <td>unitbv.tests.TestFromXls@d041cf</td></tr>

@@ -15,7 +15,7 @@ public class VerifyPagesFromXls extends TestOperations {
     @Test(dataProvider = "GetDataFromXlsFile")
     public void verifyUrlUsingXPath(String elementChecked, String url, String xpath) {
 
-        goToUrl(TestParams.getBaseUrl() + url);
+        goToUrl(url);
         Util.Log.info("open page : " + url + " to check :" + elementChecked);
         assertElementPresent(xpath);
 

@@ -55,7 +55,7 @@
 
     <!-- Recrearea directorului de build pentru a stoca clasele compilate -->
 
-    <target name="init" depends="clean,setClassPath">
+    <target name="init" depends="clean,setClassPath,cleanScreenshots">
         <mkdir dir="${project.dir}/bin"/>
     </target>
     
