@@ -8,7 +8,7 @@ public class CheckUnitBV extends VerifyPagesFromXls {
 
     @Override
     public String sheetName() {
-        return "checkPages";
+        return "pagesData";
     }
 
 }
