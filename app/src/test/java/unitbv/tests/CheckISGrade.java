@@ -13,7 +13,7 @@ public class CheckISGrade extends TestOperations {
         goToUrl(Web.PLATFORM_URL);
 
         //  Perform Login
-        login("petrisor.dima@student.unitbv.ro", "VrTzBsDJDwFz54Q");
+        login("petrisor.dima@student.unitbv.ro", "************");
 
         //  Check course IS grade is present
         click(Web.HomePage.Profile.PROFILE_PHOTO);
